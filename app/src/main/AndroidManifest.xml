@@ -9,18 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SharedPreferences">
-        <activity android:name=".PasswordActivity">
-        </activity>
-        <activity android:name=".SetPinActivity" >
-
+        <activity android:name=".SetPasswordActivity"></activity>
+        <activity android:name=".PasswordTypeActivity"></activity>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
     </application>
 
 </manifest>

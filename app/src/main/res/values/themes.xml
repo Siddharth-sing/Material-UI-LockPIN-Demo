@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.SharedPreferences" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/gradientStart</item>
+        <item name="colorPrimary">#00B8D4</item>
         <item name="colorPrimaryVariant">@color/gradientStart</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
