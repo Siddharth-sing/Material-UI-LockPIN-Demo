@@ -3,18 +3,22 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 
 class PasswordTypeActivity : AppCompatActivity(), View.OnClickListener {
 
-    private var codeString: String = "0"
+    private var codeString: String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_password_type)
 
+        val txtPass: TextView = findViewById(R.id.txtPass)
+
+        txtPass.text = ""
 
         val btn0: Button = findViewById(R.id.btn0)
         val btn1:Button = findViewById(R.id.btn1)
@@ -51,8 +55,13 @@ class PasswordTypeActivity : AppCompatActivity(), View.OnClickListener {
 
     }
 
-    override fun onClick(v: View?) {
+    private fun setDotView() {
+        val txtPass: TextView = findViewById(R.id.txtPass)
 
+        txtPass.text = codeString
+    }
+
+    override fun onClick(v: View?) {
         when (v!!.id) {
             R.id.btn0 -> codeString += "0"
             R.id.btn1 -> codeString += "1"
@@ -64,8 +73,21 @@ class PasswordTypeActivity : AppCompatActivity(), View.OnClickListener {
             R.id.btn7 -> codeString += "7"
             R.id.btn8 -> codeString += "8"
             R.id.btn9 -> codeString += "9"
+            R.id.btnErase -> {
+                codeString = removeLastChar(codeString).toString()
+            }
             else -> {
             }
         }
+        setDotView()
     }
+
+
+    private fun removeLastChar(s: String?): String? {
+        return if (s == null || s.length == 0) {
+            s
+        } else s.substring(0, s.length - 1)
+    }
+
+
 }
