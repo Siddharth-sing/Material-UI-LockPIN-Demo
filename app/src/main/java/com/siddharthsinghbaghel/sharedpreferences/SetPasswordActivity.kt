@@ -32,9 +32,9 @@ class SetPasswordActivity : AppCompatActivity() {
                 apply()
             }
 
-            val passs = sharedPref.getString("name", null)
 
-            Toast.makeText(this, "pass = $passs ", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "PIN successfully set ", Toast.LENGTH_SHORT).show()
+
             val intent = Intent(this,PasswordTypeActivity::class.java)
             startActivity(intent)
             finish()

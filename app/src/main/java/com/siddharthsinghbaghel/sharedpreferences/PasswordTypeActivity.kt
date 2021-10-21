@@ -57,17 +57,20 @@ class PasswordTypeActivity : AppCompatActivity(), View.OnClickListener {
         btnCheck.setOnClickListener{
 
             codeString = txtPass.text.toString()
-            Toast.makeText(this, "codeString = $codeString", Toast.LENGTH_LONG).show()
-
 
             val password = sharedPref.getString("password", "1234")
-            Toast.makeText(this, "password = $password", Toast.LENGTH_LONG).show()
 
             if(codeString == password)
             {
-                Toast.makeText(this, "Correct PIN Welcome! $codeString", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Correct PIN Welcome!", Toast.LENGTH_SHORT).show()
                 val intent = Intent(this,WelcomeActivity::class.java)
                 startActivity(intent)
+                finish()
+            }else{
+
+                Toast.makeText(this, "Wrong PIN please try again", Toast.LENGTH_SHORT).show()
+                txtPass.text = ""
+                codeString = txtPass.text.toString()
             }
 
 
