@@ -1,3 +1,4 @@
+/*
 //package com.siddharthsinghbaghel.sharedpreferences
 //import android.content.SharedPreferences
 //import androidx.appcompat.app.AppCompatActivity
@@ -42,3 +43,4 @@
 //        Toast.makeText(this, "name = $name \n Password = $password ", Toast.LENGTH_SHORT).show()
 //    }
 //}
+*/

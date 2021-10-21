@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SharedPreferences">
-        <activity android:name=".SetPasswordActivity"></activity>
-        <activity android:name=".PasswordTypeActivity"></activity>
+        <activity android:name=".WelcomeActivity"></activity>
+        <activity android:name=".SetPasswordActivity" />
+        <activity android:name=".PasswordTypeActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
