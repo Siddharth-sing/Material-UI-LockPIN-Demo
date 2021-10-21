@@ -79,19 +79,35 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        app:cardCornerRadius="200dp"
-                        app:cardElevation="20dp"
+                        app:cardCornerRadius="50dp"
+
                         >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
                         <Button
-                            android:id="@+id/buttonPin"
+                            android:id="@+id/buttonSetPin"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:backgroundTint="@color/gradientStart"
-                            android:text="Set PIN"
+                            android:text="Set/Change PIN"
                             android:padding="16dp"
                             android:textColor="#FFFFFF"
                             android:textStyle="bold"
                             />
+                        <Button
+                            android:id="@+id/buttonTypePin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/gradientStart"
+                            android:text="Type Pin To get in"
+                            android:padding="16dp"
+                            android:textColor="#FFFFFF"
+                            android:textStyle="bold"
+                            />
+                        </LinearLayout>
                     </androidx.cardview.widget.CardView>
                 </LinearLayout>
 
