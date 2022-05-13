@@ -1,5 +1,11 @@
 # Material-UI-LockPIN-Demo
 
+## Original Article on Dev.to Click below 👇
+
+<a href="https://dev.to/siddharthsing/simple-country-code-picker-for-android-in-kotlin-5aeo">
+  <img src="https://dev.to/siddharthsing/androids-in-app-lock-screen-using-shared-preferences-material-ui-103" height="200px" width="500px">
+  </a>
+
 ## App's Overview 
 <p>
 In this article, I am going to create a multi-screen yet simple application that will be demonstrating the best way to create lock screens for the apps using shared preferences and some material UI components.   
