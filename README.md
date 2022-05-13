@@ -2,7 +2,7 @@
 
 ## Original Article on Dev.to Click below 👇
 
-<a href="https://dev.to/siddharthsing/simple-country-code-picker-for-android-in-kotlin-5aeo">
+<a href="https://dev.to/siddharthsing/androids-in-app-lock-screen-using-shared-preferences-material-ui-103">
   <img src="https://dev.to/siddharthsing/androids-in-app-lock-screen-using-shared-preferences-material-ui-103" height="200px" width="500px">
   </a>
 
