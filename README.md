@@ -3,7 +3,7 @@
 ## Original Article on Dev.to Click below 👇
 
 <a href="https://dev.to/siddharthsing/androids-in-app-lock-screen-using-shared-preferences-material-ui-103">
-  <img src="https://dev.to/siddharthsing/androids-in-app-lock-screen-using-shared-preferences-material-ui-103" height="200px" width="500px">
+  <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" height="200px" width="500px">
   </a>
 
 ## App's Overview 
