@@ -10,6 +10,7 @@ In this article, I am going to create a multi-screen yet simple application that
 ---
 
 ## Steps to proceed
+  
 <p>
 We will be proceeding in a very beginner-friendly way. All the steps are mentioned below.
 
@@ -23,7 +24,9 @@ We will be proceeding in a very beginner-friendly way. All the steps are mention
 <p>
 
 <p>
+  
 ## Setup
+  
 <a name="setup"></a>
 * First of all, create a brand new project in your android studio. Assuming that it will be an easy part, so not explaining all. 
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/iu4ykvvoqn5g1prrfvrp.jpg)
