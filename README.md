@@ -9,7 +9,7 @@ In this article, I am going to create a multi-screen yet simple application that
 
 ---
 
-##Steps to proceed
+## Steps to proceed
 <p>
 We will be proceeding in a very beginner-friendly way. All the steps are mentioned below.
 
