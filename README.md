@@ -35,7 +35,9 @@ We will be proceeding in a very beginner-friendly way. All the steps are mention
 Now we are good to go for next step.
 <p>
 <p>
-##Building the app's UI
+  
+## Building the app's UI
+  
 <a name="UI"></a>
   App's UI will be built in 4 steps :
   * [Main Activity UI (activity_main.xml)](#mainA)
@@ -849,13 +851,17 @@ class WelcomeActivity : AppCompatActivity() {
 ```
 
 <a name="GitHub"></a> 
+  
 ## GitHub Repository
+  
 * Fork the repository for better and easy understanding and for quick learning.
 
 {% github Siddharth-sing/Material-UI-LockPIN-Demo %}
 
 <a name="support"></a> 
+  
 ## Writer's Support
+  
 * If you find the article useful show some ❤️ by staring some of my repositories and following me on dev.to and github.
  <div>
   <p align="middle">
